@@ -1,8 +1,8 @@
 import os
 import cv2
 import numpy as np
-from keras.preprocessing.image import img_to_array
-from keras.models import load_model
+from tensorflow.keras.preprocessing.image import img_to_array
+from tensorflow.keras.models import load_model
 import time
 import tensorflow as tf
 import mediapipe as mp
